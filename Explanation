@@ -1,0 +1,35 @@
+Project Overview
+
+This project demonstrates an end-to-end data analytics workflow using Python (Pandas) for data cleaning & transformation and SQL for business insights.
+
+Files in this Repository
+
+orders.csv
+Raw dataset containing customer orders.
+
+df_orders.csv
+Cleaned and transformed version of orders.csv. Data was processed using Pandas (handling missing values, formatting dates, correcting datatypes, etc.).
+
+prj.ipynb
+Jupyter Notebook used for the data cleaning and preprocessing steps. This file shows the Python code for transforming orders.csv into df_orders.csv.
+
+sql.sql
+SQL script containing analytical queries. These queries include:
+
+Top selling products & regions
+
+Monthly/Yearly sales trends
+
+Category-wise best performing months
+
+Sub-category growth comparison across years
+
+Workflow
+
+Load the raw dataset (orders.csv).
+
+Clean and transform data in Python → output saved as df_orders.csv.
+
+Import cleaned data into SQL database.
+
+Run advanced SQL queries (sql.sql) to answer business questions.
