@@ -1,8 +1,8 @@
-Project Overview
+Project Overview------------
 
 This project demonstrates an end-to-end data analytics workflow using Python (Pandas) for data cleaning & transformation and SQL for business insights.
 
-Files in this Repository
+Files in this Repository--------------
 
 orders.csv
 Raw dataset containing customer orders.
@@ -15,7 +15,7 @@ Jupyter Notebook used for the data cleaning and preprocessing steps. This file s
 
 sql.sql
 SQL script containing analytical queries. These queries include:
-
+---------------------------------------------------------------------------------------------------
 Top selling products & regions
 
 Monthly/Yearly sales trends
@@ -23,13 +23,29 @@ Monthly/Yearly sales trends
 Category-wise best performing months
 
 Sub-category growth comparison across years
-
+----------------------------------------------------------------------------------------------------
 Workflow
 
-Load the raw dataset (orders.csv).
+1. Load the raw dataset (orders.csv).
+2. Clean and transform data in Python → output saved as df_orders.csv.
+3. Import cleaned data into SQL database.
+4. Run advanced SQL queries (sql.sql) to answer business questions.
 
-Clean and transform data in Python → output saved as df_orders.csv.
 
-Import cleaned data into SQL database.
 
-Run advanced SQL queries (sql.sql) to answer business questions.
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+E-Commerce Sales Report (PDF Export Explanation)
+
+This report has been generated in Power BI and exported as PDF. It provides a detailed overview of sales, profit, and customer insights across multiple dimensions.
+
+The report includes the following visualizations:
+
+1. Sales by Product ID – shows total sales revenue contribution by each product.
+2. Sales by Region – compares sales performance across Central, East, South, and West regions.
+3. Profit by Category – highlights profitability in Technology, Furniture, and Office Supplies categories.
+4. Profit Margin % by Segment – analyzes margin performance across Consumer, Corporate, and Home Office customer segments.
+5. Sales Trend by Day – visualizes daily sales over time for both 2022 and 2023 to identify growth patterns and seasonality.
+6. Sales by City – ranks top-performing cities like New York, Los Angeles, Seattle, etc.
+7. Sales by Segment – compares total sales share between Consumer, Corporate, and Home Office.
+8. Sales by Region & Category (Matrix) – a detailed breakdown showing sales for each category in every region.
+
